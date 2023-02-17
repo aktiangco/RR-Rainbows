@@ -2,7 +2,7 @@ import './App.css';
 // Importing React and useState
 import React, { useState } from 'react';
 // Importing colorBlock Component
-import ColorBlock from './components/colorBlock';
+import ColorBlock from './components/ColorBlock';
 import ColorForm from './components/ColorForm';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
       <ColorBlock key={i} color={color} />
     )
   })
+  // Adding new 
   const addColor = (newColor) => {
     setColors([...colors, newColor])
   }
