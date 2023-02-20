@@ -2,7 +2,7 @@ import React from 'react'
 
 function ColorBlock(props){
     return (
-        <div className="colorBlock"
+        <div className="ColorBlock"
         style={{'backgroundColor': props.color}}>
             <p>{props.color}</p>
         </div>
